@@ -1,0 +1,23 @@
+- heading: "Product Definition"
+  icon: "icon-zoom-in"
+- heading: "Web Development"
+  icon: "icon-globe"
+- heading: "Mobile Apps"
+  icon: "icon-mobile"
+- heading: "CRM"
+  icon: "icon-suitcase"
+- heading: "Blockchain Security & Data Warehousing"
+  icon: "icon-link"
+#- heading: "Data Warehousing"
+#  icon: "icon-database"
+- heading: "Cloud Hosting Services"
+  icon: "icon-cloud"
+- heading: "On-demand Services"
+  icon: "icon-mouse"
+#- heading: "Hosting Services"
+#  icon: "icon-server"
+- heading: "Reporting & BI"
+  icon: "icon-chart-pie"
+
+
+

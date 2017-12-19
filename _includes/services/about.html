@@ -1,0 +1,27 @@
+ <header 
+    style="background-image:url('{{ site.baseurl }}img/our-tools.jpg')"
+    id="about"
+    class="">
+    <div class="container" id="welcome-messages">
+        <div class="intro-text">  
+            <div class="intro-heading">Solution Tools &amp; Design</div>
+            <div class="intro-lead-in">We connect with you. You connect with the world.</div>
+            <p>
+<div class="clearfix">
+  {% for service in site.data.serviceIcons %} 
+    <div class="box-wrap ">
+      <div class="box">
+        <div class="box-icon"> 
+          <span class="{{service.icon}}"></span>
+        </div>
+        <div class="info">
+          <h4 class="text-center">{{service.heading}}</h4>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+            </p>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,31 @@
+<div id="services" class="swiper-container">
+    <div class="swiper-wrapper">
+        {% for service in site.data.services %}
+        <div class="swiper-slide">
+            <header 
+    style="background-image:url('{{ site.baseurl }}{{service.image}}')">
+            <div class="container" id="welcome-messages">
+                <div class="intro-text">  
+                    <div class="intro-heading">{{service.heading}}</div>
+                    <div class="intro-lead-in">{{service.sub_heading}}</div>
+                </div>
+            </div>
+            </header>
+        </div>
+        {% endfor %}
+    </div>  
+
+       <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+    
+    <!-- If we need navigation buttons 
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>-->
+    
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>  
+</div>
+
+
+
+

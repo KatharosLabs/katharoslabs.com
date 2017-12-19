@@ -1,0 +1,29 @@
+ <header 
+    style="background-image:url('{{ site.baseurl }}img/partners.jpg')"
+    id="about"
+    class="">
+    <div class="container" id="welcome-messages">
+        <div class="intro-text">  
+            <div class="intro-heading">When you partner with KatharosLabs, you get more of ... everything.</div>
+            <div class="intro-lead-in"> &nbsp;</div>
+
+            <div class='row'>
+            	{% for pitch in site.data.partnerPitches %} 
+				    <div class="col-md-3">
+				      <div class="service_box">
+				        <div class="box-icon-partner"> 
+				          <span class="{{pitch.icon}}"></span>
+				        </div>
+				        <div class="info">
+				          <h4 class="text-center">{{pitch.heading}}</h4>
+				          <p>{{pitch.text}}</p>
+				        </div>
+				      </div>
+				    </div>
+				  {% endfor %}
+            </div>
+            <p>&nbsp;</p>
+            <a href="{{site.baseurl}}#contact" class="page-scroll btn btn-xl">Start a project with us</a>
+		</div>
+    </div>
+</header>

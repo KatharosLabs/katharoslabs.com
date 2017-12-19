@@ -1,0 +1,13 @@
+- heading: "DEVELOP"    
+  sub_heading: "Working closely with our design team and through an agile process, we are able to build, test and implement in a way that gets products to market with speed and precision."
+  image: "img/services/develop.jpg"
+- heading: "DESIGN"
+  sub_heading: "We are obsessed with your users’ experience. Designing an interface they love and engage with is paramount to the way we deliver your concept."
+  image: "img/services/design.jpg"
+- heading: "STRATEGY"
+  sub_heading: "Bring your concept to definition. Secure and protect. Design, deliver and learn.<br /> &nbsp;"
+  image: "img/services/strategy.jpg"
+- heading: "SECURITY"
+  sub_heading: "We provide multi-layered secured development, testing, production and cloud hosting environments.<br /> &nbsp;"
+  image: "img/services/security.jpg"
+
